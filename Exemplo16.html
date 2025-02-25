@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curso HTML5 + CSS</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+        }
+
+        .header-text {
+            font-size: 1.5rem;
+            color: blue;
+            font-family: "Comic Sans MS", cursive;
+        }
+
+        .custom-font {
+            font-size: 1.2rem;
+            color: blue;
+            font-family: Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center py-4">
+        <p class="header-text fw-bold">
+            Neste curso, você aprenderá a criar uma página web de um jeito super divertido e interativo.
+        </p>
+
+        <nav class="my-3">
+            <a href="#link1" class="btn btn-primary m-1">Aulas</a>
+            <a href="#link2" class="btn btn-primary m-1">Mídias</a>
+            <a href="#link3" class="btn btn-primary m-1">Formulários</a>
+        </nav>
+
+        <img src="aldeia.png" class="img-fluid rounded border border-2" alt="HTML">
+    </div>
+
+    <div class="container">
+        <p class="custom-font fw-bold fst-italic">
+            A seguir, vamos dar um breve resumo no que foi visto até agora:
+        </p>
+
+        <h3 id="link1" class="text-center text-decoration-underline">Aulas</h3>
+
+        <div class="row">
+            <div class="col-md-6">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">Como funciona a internet?</li>
+                    <li class="list-group-item">Instalando o editor Notepad++</li>
+                    <li class="list-group-item">Marcadores padrões do HTML</li>
+                    <li class="list-group-item">Técnicas de indentação</li>
+                    <li class="list-group-item">Tags - Parte 1</li>
+                    <li class="list-group-item">Tags - Parte 2</li>
+                    <li class="list-group-item">Links</li>
+                    <li class="list-group-item">Inserindo imagens e criando listas</li>
+                    <li class="list-group-item">Tabelas</li>
+                    <li class="list-group-item">Formatando tabelas</li>
+                    <li class="list-group-item">Formulários</li>
+                    <li class="list-group-item">Enviar e limpar dados</li>
+                    <li class="list-group-item">Tags multimídia</li>
+                </ol>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="Microsoft.png" class="img-fluid rounded" alt="HTML">
+            </div>
+        </div>
+    </div>
+    <div align="center" id="link2">
+        <embed src="Áudio.mp3">
+        <embed src="video.mp4" width="300" height="150">
+    </div>
+    <marquee behavior=alternate bgcolor=#8EB7FF direction="left" height="20%" width="100%" hspace=2 vspace=10
+        scrollamount=3 scrolldelay=40> Preencha o formulário abaixo e fique por dentro das novidades! </marquee>
+    <br><br>
+    <script>
+        function valida(f) {
+            if (f.nome.value == "") {
+                alert("O campo nome não pode ficar vazio!");
+                return false;
+            }
+        }
+    </script>
+    <form action="exemplo16.1.html" method="GET" onsubmit="return valida(this);">
+        <fieldset>
+            <legend>
+                <h3 id="link3"> Formulário de Cadastro </h3>
+            </legend>
+            <label for="nome">Nome:</label>
+            <input type="nome" size="30" maxlength="50" name="nome" value="">
+            <label for="data">Data de Nascimento:</label>
+            <input type="data" size="10" maxlength="50" name="data" value="">
+            <label for="email">E-mail:</label>
+            <input type="email" size="30" maxlength="50" name="email" value="">
+            <br>
+            <label>Gênero:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino">Feminino</label>
+            <br><br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" size="11" maxlength="50" name="telefone" value="">
+            <p><label for="civil">Estado Civil:</label>
+                <input type="radio" name="civil" value="Sol" checked> Solteiro(a)
+                <input type="radio" name="civil" value="Cas"> Casado(a)
+                <input type="radio" name="civil" value="Ama"> Amaziado(a)
+                <br>
+                <label for="endereço">Endereço:</label>
+                <input type="text" size="50" maxlength="50" name="endereço" value="">
+            <p>Cidade:</p>
+            <select name="cidade">
+                <option value="0">Selecione
+                <option value="taq">Taquaritinga
+                <option value="jab">Jaboticabal
+                <option value="rib">Ribeirão preto
+                <option value="mat">Matão
+                <option value="ara">Araraquara
+                </option>
+            </select>
+            <p>Quais cursos a seguir você já fez ou tem vontade de fazer?</p>
+            <br><input type="checkbox" name="item1" value="AutoCAD"> AutoCAD
+            <br><input type="checkbox" name="item2" value="3DaMax"> 3DaMax
+            <br><input type="checkbox" name="item3" value="Windows"> Windows
+            <br><input type="checkbox" name="item4" value="Excel"> Excel
+            <br><input type="checkbox" name="item5" value="Administração"> Administração
+            <br><input type="checkbox" name="item6" value="Photoshop"> Photoshop
+            <br><input type="checkbox" name="item7" value="PHP"> PHP
+            <br><input type="checkbox" name="item8" value="JavaScript"> JavaScript
+            <br><input type="checkbox" name="item9" value="Programador Mobile"> Programador Mobile
+            <br><input type="checkbox" name="item10" value="Games"> Games
+            <p>Deixe sua opinião sobre o curso aqui:</p>
+            <br><textarea name="areadetexto" rows="6" cols="45"></textarea>
+            <p><input type="Submit" value="Enviar"></p>
+            <input type="Reset" value="Limpar">
+        </fieldset>
+    </form>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
