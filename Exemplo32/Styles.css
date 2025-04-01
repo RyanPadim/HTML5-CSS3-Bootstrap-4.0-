@@ -1,0 +1,23 @@
+#coluna1 {
+    width: 100px;
+    height: 300px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+#coluna2 {
+    width: 300px;
+    height: 200px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: black;
+}
+
+#coluna3 {
+    width: 133px;
+    height: 400px;
+    border-width: 9px;
+    border-style: double;
+    border-color: orange;
+}
