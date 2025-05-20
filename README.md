@@ -1,8 +1,8 @@
 # 🌐 HTML5 + CSS3 + Bootstrap
 
-![HTML5](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png)
-![CSS3](https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo_and_wordmark.svg)
-![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/4/47/Bootstrap_logo_2020.svg)
+![HTML5 Logo](https://upload.wikimedia.org/wikipedia/commons/0/06/HTML5_logo_and_wordmark.png)
+![CSS3 Logo](https://upload.wikimedia.org/wikipedia/commons/a/a4/CSS3_logo_and_wordmark.png)
+![Bootstrap Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Bootstrap-Logo.png)
 
 Este repositório contém projetos e exercícios desenvolvidos com **HTML5**, **CSS3** e **Bootstrap**, voltados para o aprendizado e prática de desenvolvimento front-end responsivo e moderno.
 
