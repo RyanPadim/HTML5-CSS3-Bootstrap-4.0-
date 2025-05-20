@@ -1,6 +1,6 @@
 # 🌐 HTML5 + CSS3 + Bootstrap
 
-![HTML5 Logo](https://upload.wikimedia.org/wikipedia/commons/0/06/HTML5_logo_and_wordmark.png)
+![HTML5 Logo]([https://upload.wikimedia.org/wikipedia/commons/0/06/HTML5_logo_and_wordmark.png](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png)
 ![CSS3 Logo](https://upload.wikimedia.org/wikipedia/commons/a/a4/CSS3_logo_and_wordmark.png)
 ![Bootstrap Logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Bootstrap-Logo.png)
 
